@@ -1,4 +1,3 @@
-
 /**
  * we are going to find everything we need to about the check so we can input them
  * into a checkbook.
@@ -38,8 +37,8 @@ public class Check
     {
         // put your code here
         return payee;
-    }
- 
+    }
+ 
     /**
      * use get function to find out the amount of check
      */
@@ -47,8 +46,7 @@ public class Check
     {
         // put your code here
         return amount;
-    }
-
+    }
    /**
      * use get function to find out what the check was for
      */
@@ -56,8 +54,7 @@ public class Check
     {
         // put your code here
         return memo;
-    }
-
+    }
     /**
      * get function to find out the check numbers
      */
@@ -65,8 +62,7 @@ public class Check
     {
         // put your code here
         return number;
-    }
-
+    }
     /**
      * get function to find the date of check
      */
@@ -75,16 +71,13 @@ public class Check
         // put your code here
         return date;
     }
-
-
     /**
      * what the checks should look like when printed
      */
     public void printCheck()
     {
         // put your code here
-        system.out.println("Adam Brown              "+  number);
-        system.out.println("Pay to the order of:" + payee + "   $" + amount);
-        system.out.println("Memo: " + memo);
+        System.out.println("Adam Brown              "+  number);
+        System.out.println("Pay to the order of:" + payee + "   $" + amount);
+        System.out.println("Memo: " + memo);
     }
-}
